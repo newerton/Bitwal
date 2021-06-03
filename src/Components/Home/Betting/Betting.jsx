@@ -4,7 +4,7 @@ import {
   Football_Matches,
   Tennis_Matches,
   Basketball_Matches,
-} from "../../../assets/DummyData";
+} from "../../../assets/DummyData/Matches";
 import BettingTable from "./BettingTable";
 
 const Batting = (props) => {
