@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./BettingModal.css";
 import vs_icon from "../../../../assets/img/vs-icon.png";
 
-const BettingModel = (props) => {
+const Betting_Model = (props) => {
   const [bet_count, set_bet_count] = useState(0);
 
   const handleDecrement = () => {
@@ -13,10 +13,11 @@ const BettingModel = (props) => {
     var temp = bet_count;
     set_bet_count(temp + 1);
   };
+
   const handleCloseModal = () => {
     set_bet_count(0);
-    props.onHideModal()
-  }
+    props.onHideModal();
+  };
 
   return (
     <div class={props.bet_modal_bg}>
@@ -33,14 +34,14 @@ const BettingModel = (props) => {
             <span class="altv-1">{props.betData.bet_value}</span>
           </div>
           <div class="bet-descr">
-            <span class="team-name team-name-1st">{props.matchData.teams[0].team_name}</span>
+            <span class="team-name team-name-1st">Arsenal</span>
             <span class="img-ic">
               <img src={vs_icon} alt="" />
             </span>
-            <span class="team-name team-name-2nd">{props.matchData.teams[1].team_name}</span>
+            <span class="team-name team-name-2nd">everton</span>
             <div class="team-score">
-              [<span class="team-first-score">{props.matchData.teams[0].team_score}</span>:
-              <span class="team-second-score">{props.matchData.teams[1].team_score}</span>] 1X2 Live Prediction
+              [<span class="team-first-score">2</span>:
+              <span class="team-second-score">4</span>] 1X2 Live Prediction
             </div>
           </div>
           <div class="ctrl-buttons">
@@ -69,7 +70,9 @@ const BettingModel = (props) => {
               </li>
               <li>
                 <span class="number-of-bet">Total Est. Returns :</span>
-                <span class="number-of-bet-count">{(bet_count * props.betData.bet_value).toFixed(2)}</span>
+                <span class="number-of-bet-count">
+                  {(bet_count * props.betData.bet_value).toFixed(2)}
+                </span>
               </li>
             </ul>
           </div>
@@ -81,4 +84,4 @@ const BettingModel = (props) => {
     </div>
   );
 };
-export default BettingModel;
+export default Betting_Model;
