@@ -34,7 +34,7 @@ const Betting_Model = (props) => {
             <span class="altv-1">{props.betData.bet_value}</span>
           </div>
           <div class="bet-descr">
-            <span class="team-name team-name-1st">{props.matchData.teams[0].team_name}</span>
+            <span class="team-name team-name-1st">Arsenal</span>
             <span class="img-ic">
               <img src={vs_icon} alt="" />
             </span>

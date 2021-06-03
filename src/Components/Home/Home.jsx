@@ -31,7 +31,7 @@ const Home = () => {
         onHideModal={hideModalHandler}
         bet_modal_bg={show_Modal}
         bet_modal={open_Modal}
-        betData = {Bet_Data}Bet_Data
+        betData = {Bet_Data}
         matchData={Match_Data}
       />
       <Header />
