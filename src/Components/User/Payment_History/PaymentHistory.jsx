@@ -1,4 +1,4 @@
-import "./PaymentHistory.css";
+import './PaymentHistory.css';
 
 const Payment_History = () => {
   return (

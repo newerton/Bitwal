@@ -1,5 +1,5 @@
-import "./Dashboard.css";
-import user_profile from "../../../assets/img/testi-user-1.jpg";
+import './Dashboard.css';
+import user_profile from '../../../assets/img/testi-user-1.jpg';
 
 const Dashboard = () => {
   return (

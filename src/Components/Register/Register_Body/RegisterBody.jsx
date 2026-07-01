@@ -1,42 +1,42 @@
-import { useState } from "react";
-import "./RegisterBody.css";
+import { useState } from 'react';
+import './RegisterBody.css';
 
 const Register_Body = () => {
   const [classes_for_first_form, set_classes_for_first_form] =
-    useState("single-form");
+    useState('single-form');
   const [classes_for_sec_form, set_classes_for_sec_form] =
-    useState("single-form");
+    useState('single-form');
   const [classes_for_third_form, set_classes_for_third_form] =
-    useState("single-form");
+    useState('single-form');
   const [classes_for_forth_step, set_classes_for_forth_step] =
-    useState("final-step");
-  const [first_step, set_first_step] = useState("active");
-  const [sec_step, set_sec_step] = useState("");
-  const [third_step, set_third_step] = useState("");
-  const [forth_step, set_forth_step] = useState("");
+    useState('final-step');
+  const [first_step, set_first_step] = useState('active');
+  const [sec_step, set_sec_step] = useState('');
+  const [third_step, set_third_step] = useState('');
+  const [forth_step, set_forth_step] = useState('');
 
   const FirstFormSubmitHandler = (e) => {
     e.preventDefault();
-    set_classes_for_first_form("single-form hide_form");
-    set_classes_for_sec_form("single-form show_form");
-    set_first_step("");
-    set_sec_step("active");
+    set_classes_for_first_form('single-form hide_form');
+    set_classes_for_sec_form('single-form show_form');
+    set_first_step('');
+    set_sec_step('active');
   };
 
   const SecFormSubmitHandler = (e) => {
     e.preventDefault();
-    set_classes_for_sec_form("single-form hide_form");
-    set_classes_for_third_form("single-form show_form");
-    set_sec_step("");
-    set_third_step("active");
+    set_classes_for_sec_form('single-form hide_form');
+    set_classes_for_third_form('single-form show_form');
+    set_sec_step('');
+    set_third_step('active');
   };
 
   const ThirdFormSubmitHandler = (e) => {
     e.preventDefault();
-    set_classes_for_third_form("single-form hide_form");
-    set_classes_for_forth_step("final-step show_form");
-    set_third_step("");
-    set_forth_step("active");
+    set_classes_for_third_form('single-form hide_form');
+    set_classes_for_forth_step('final-step show_form');
+    set_third_step('');
+    set_forth_step('active');
   };
 
   return (
@@ -153,9 +153,8 @@ const Register_Body = () => {
                   </div>
                   <p>
                     By clicking "NEXT", you confirm that you have read and
-                    understood the Bettix{" "}
-                    <a href >Privacy & Coockie Policy</a>, and agree to its
-                    terms.
+                    understood the Bettix <a href>Privacy & Coockie Policy</a>,
+                    and agree to its terms.
                   </p>
                   <button class="next" type="submit">
                     Next
@@ -186,9 +185,8 @@ const Register_Body = () => {
                   </div>
                   <p>
                     By clicking "NEXT", you confirm that you have read and
-                    understood the Bettix{" "}
-                    <a href>Privacy & Coockie Policy</a>, and agree to its
-                    terms.
+                    understood the Bettix <a href>Privacy & Coockie Policy</a>,
+                    and agree to its terms.
                   </p>
                   <button class="next">Next</button>
                 </form>
@@ -210,9 +208,8 @@ const Register_Body = () => {
 
                   <p>
                     By clicking "NEXT", you confirm that you have read and
-                    understood the Bettix{" "}
-                    <a href>Privacy & Coockie Policy</a>, and agree to its
-                    terms.
+                    understood the Bettix <a href>Privacy & Coockie Policy</a>,
+                    and agree to its terms.
                   </p>
                   <button class="next">Next</button>
                 </form>

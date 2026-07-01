@@ -1,16 +1,15 @@
-import React from "react";
-import "./Header.css";
-import logo from "../../../assets/img/logo.png";
-import {Link} from  "react-router-dom";
+import './Header.css';
+import { Link } from 'react-router-dom';
+import logo from '../../../assets/img/logo.png';
 
 const HeaderBottom = () => {
   // window.onscroll = function () {
   //   myFunction();
   // };
-  
+
   // var header = document.getElementById('navbar');
   // var sticky = header.offsetTop;
-  
+
   // const myFunction = () => {
   //   if (window.pageYOffset > sticky) {
   //     header.classList.add("sticky");
@@ -88,7 +87,7 @@ const HeaderBottom = () => {
                     </li>
                     <li className="nav-item">
                       <Link className="nav-link" to="register">
-                        Register{" "}
+                        Register{' '}
                       </Link>
                     </li>
                   </ul>

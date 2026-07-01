@@ -21,11 +21,13 @@
 }
 
 .breadcrumb-bettix.standing-page {
-  background: url("../../../assets/img/breadcrumb-bg-standing.jpg") center bottom no-repeat;
+  background: url("../../../assets/img/breadcrumb-bg-standing.jpg") center
+    bottom no-repeat;
   background-size: cover;
 }
 .breadcrumb-bettix.standing-page-register {
-  background: url("../../../assets/img/breadcrumb-bg-register.jpg") center center no-repeat;
+  background: url("../../../assets/img/breadcrumb-bg-register.jpg") center
+    center no-repeat;
   background-size: cover;
 }
 .breadcrumb-bettix .breadcrumb-content {
@@ -48,7 +50,7 @@
   text-transform: uppercase;
   font-size: 14px;
 }
-.breadcrumb-bettix .breadcrumb-content ul li:nth-child(2){
+.breadcrumb-bettix .breadcrumb-content ul li:nth-child(2) {
   margin: 0px 4px;
 }
 .breadcrumb-bettix .breadcrumb-content ul li:last-child:after {

@@ -1,13 +1,13 @@
-import Home from "./Components/Home/Home";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import MyBets from "./Components/MyBets/MyBets";
-import Accumulator from "./Components/Accumulator/Accumulator";
-import Special from "./Components/Special/Special";
-import Football from "./Components/Football/Football";
-import Login from "./Components/Login/Login";
-import Register from "./Components/Register/Register";
-import User from "./Components/User/User";
-import AccumulatorMain from "./Components/Accumulator_Data/AccumulatorDataMain";
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import Accumulator from './Components/Accumulator/Accumulator';
+import AccumulatorMain from './Components/Accumulator_Data/AccumulatorDataMain';
+import Football from './Components/Football/Football';
+import Home from './Components/Home/Home';
+import Login from './Components/Login/Login';
+import MyBets from './Components/MyBets/MyBets';
+import Register from './Components/Register/Register';
+import Special from './Components/Special/Special';
+import User from './Components/User/User';
 
 function App() {
   return (

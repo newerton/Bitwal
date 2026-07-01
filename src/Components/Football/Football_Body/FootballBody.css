@@ -96,7 +96,7 @@
 }
 .standing .standing-team-list .table .text-right a,
 .standing .standing-team-list .table .text-center a {
-  color: #fff !important ;
+  color: #fff;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {

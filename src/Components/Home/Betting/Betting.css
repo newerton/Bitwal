@@ -297,8 +297,7 @@
     background-color: #fff;
   }
   /* betting section */
-  .betting-table
-    .bet-tab-content
+  .betting-table .bet-tab-content
     .tab-pane
     .sports-list
     .single-sport-box

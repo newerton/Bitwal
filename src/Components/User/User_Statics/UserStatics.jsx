@@ -1,4 +1,4 @@
-import "./UserStatics.css";
+import './UserStatics.css';
 
 const User_Statics = () => {
   return (

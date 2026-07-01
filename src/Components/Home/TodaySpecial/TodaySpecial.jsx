@@ -1,8 +1,7 @@
-import React from "react";
-import "./TodaySpecial.css";
-import match1 from "../../../assets/img/match1.png";
-import match2 from "../../../assets/img/match2.jpg";
-import match3 from "../../../assets/img/match3.jpg";
+import './TodaySpecial.css';
+import match1 from '../../../assets/img/match1.png';
+import match2 from '../../../assets/img/match2.jpg';
+import match3 from '../../../assets/img/match3.jpg';
 
 const TodaySpecial = () => {
   return (

@@ -276,8 +276,8 @@
 }
 
 .show_form {
-  display: block !important;
+  display: block;
 }
 .hide_form {
-  display: none !important;
+  display: none;
 }

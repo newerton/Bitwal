@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import {Link } from "react-router-dom";
-import "./Header.css";
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 const HeaderTop = () => {
   //code to find current time and date
-  const locale = "en";
+  const locale = 'en';
   const [today, setDate] = useState(new Date());
   useEffect(() => {
     const timer = setInterval(() => {
@@ -16,7 +16,7 @@ const HeaderTop = () => {
   }, []);
   // Creating Date Format
   const date = `${today.getDate()} ${today.toLocaleDateString(locale, {
-    month: "long",
+    month: 'long',
   })}, ${today.getFullYear()}\n\n`;
   const hour = today.getHours();
   const minute = today.getMinutes();
@@ -33,16 +33,15 @@ const HeaderTop = () => {
                   <span className="icon">
                     <i className="fa fa-calendar-alt"></i>
                   </span>
-                  <span className="text">
-                    {date}
-                  </span>
+                  <span className="text">{date}</span>
                 </li>
                 <li>
                   <span className="icon">
                     <i className="fa fa-clock"></i>
                   </span>
                   <span className="text clocks">
-                    <span id="hours">{hour}</span>:<span id="minutes">{minute}</span>:
+                    <span id="hours">{hour}</span>:
+                    <span id="minutes">{minute}</span>:
                     <span id="seconds">{sec}</span>
                   </span>
                 </li>

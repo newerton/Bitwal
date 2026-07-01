@@ -1,4 +1,4 @@
-import "./AccumulatorData.css";
+import './AccumulatorData.css';
 
 const AccumulatorData = () => {
   return (
@@ -36,26 +36,26 @@ const AccumulatorData = () => {
           </thead>
           <tbody>
             <tr>
-              <td >Dummy</td>
-              <td >Dummy</td>
-              <td >Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
             </tr>
             <tr>
-              <td >Dummy</td>
-              <td >Dummy</td>
-              <td >Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
             </tr>
             <tr>
-              <td >Dummy</td>
-              <td >Dummy</td>
-              <td >Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
+              <td>Dummy</td>
             </tr>
           </tbody>
         </table>
-        <p className="small_text"> 
+        <p className="small_text">
           <em>
             <span class="decorated-text">*</span> Results get updated from the
-            home page. Proceed to the home page to refresh wallet balance.{" "}
+            home page. Proceed to the home page to refresh wallet balance.{' '}
             <a class="decorated-text" href="/">
               Click here
             </a>

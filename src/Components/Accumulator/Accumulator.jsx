@@ -5,13 +5,13 @@ import Header from '../Common/Header/Header';
 import AccumulatorBody from './Accumulator_Body/AccumulatorBody';
 
 const Accumulator = () => {
-    return (
-        <React.Fragment>
-            <Header />
-            <Breadcrumb detail="Accumulator"/>
-            <AccumulatorBody />
-            <CompleteFooter />
-        </React.Fragment>
-    )
-}
+  return (
+    <React.Fragment>
+      <Header />
+      <Breadcrumb detail="Accumulator" />
+      <AccumulatorBody />
+      <CompleteFooter />
+    </React.Fragment>
+  );
+};
 export default Accumulator;

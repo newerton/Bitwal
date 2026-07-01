@@ -1,5 +1,4 @@
-import React from "react";
-import "./SpecialBody.css";
+import './SpecialBody.css';
 
 const Special_Body = () => {
   return (

@@ -1,9 +1,8 @@
-import React from "react";
-import "./FootballBody.css";
-import first_img from "../../../assets/img/1.png";
-import sec_image from "../../../assets/img/2.png";
-import third_image from "../../../assets/img/3.svg";
-import { Link } from "react-router-dom";
+import './FootballBody.css';
+import { Link } from 'react-router-dom';
+import first_img from '../../../assets/img/1.png';
+import sec_image from '../../../assets/img/2.png';
+import third_image from '../../../assets/img/3.svg';
 
 const FootballBody = () => {
   return (
@@ -35,75 +34,24 @@ const FootballBody = () => {
                       </span>
                     </td>
                     <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
+                      <Link to="">0 Matches Active</Link>
                     </td>
                   </tr>
                   <tr>
                     <td>
                       <span class="single-team">
                         <span class="logo">
-                        <Link to="">
+                          <Link to="">
                             <img src={sec_image} alt="" />
                           </Link>
                         </span>
                         <span class="text-center">
-                        <Link to="">Premier League</Link>
+                          <Link to="">Premier League</Link>
                         </span>
                       </span>
                     </td>
                     <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span class="single-team">
-                        <span class="logo">
-                        <Link to="">
-                            <img src={third_image} alt="" />
-                          </Link>
-                        </span>
-                        <span class="text-center">
-                        <Link to="">La Liga</Link>
-                        </span>
-                      </span>
-                    </td>
-                    <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span class="single-team">
-                        <span class="logo">
-                        <Link to="">
-                            <img src={first_img} alt="" />
-                          </Link>
-                        </span>
-                        <span class="text-center">
-                        <Link to="">Champions League</Link>
-                        </span>
-                      </span>
-                    </td>
-                    <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span class="single-team">
-                        <span class="logo">
-                        <Link to="">
-                            <img src={sec_image} alt="" />
-                          </Link>
-                        </span>
-                        <span class="text-center">
-                        <Link to="">Premier League</Link>
-                        </span>
-                      </span>
-                    </td>
-                    <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
+                      <Link to="">0 Matches Active</Link>
                     </td>
                   </tr>
                   <tr>
@@ -115,12 +63,63 @@ const FootballBody = () => {
                           </Link>
                         </span>
                         <span class="text-center">
-                        <Link to="">La Liga</Link>
+                          <Link to="">La Liga</Link>
                         </span>
                       </span>
                     </td>
                     <td class="text-right">
-                    <Link to="">0 Matches Active</Link>
+                      <Link to="">0 Matches Active</Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="single-team">
+                        <span class="logo">
+                          <Link to="">
+                            <img src={first_img} alt="" />
+                          </Link>
+                        </span>
+                        <span class="text-center">
+                          <Link to="">Champions League</Link>
+                        </span>
+                      </span>
+                    </td>
+                    <td class="text-right">
+                      <Link to="">0 Matches Active</Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="single-team">
+                        <span class="logo">
+                          <Link to="">
+                            <img src={sec_image} alt="" />
+                          </Link>
+                        </span>
+                        <span class="text-center">
+                          <Link to="">Premier League</Link>
+                        </span>
+                      </span>
+                    </td>
+                    <td class="text-right">
+                      <Link to="">0 Matches Active</Link>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="single-team">
+                        <span class="logo">
+                          <Link to="">
+                            <img src={third_image} alt="" />
+                          </Link>
+                        </span>
+                        <span class="text-center">
+                          <Link to="">La Liga</Link>
+                        </span>
+                      </span>
+                    </td>
+                    <td class="text-right">
+                      <Link to="">0 Matches Active</Link>
                     </td>
                   </tr>
                 </tbody>

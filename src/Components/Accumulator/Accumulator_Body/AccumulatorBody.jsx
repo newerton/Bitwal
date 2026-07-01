@@ -1,6 +1,5 @@
-import React from "react";
-import "./AccumulatorBody.css";
-import { Link } from "react-router-dom";
+import './AccumulatorBody.css';
+import { Link } from 'react-router-dom';
 
 const AccumulatorBody = () => {
   return (
@@ -54,7 +53,9 @@ const AccumulatorBody = () => {
                     Status : Cancelled
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">Odds : 1.00</h6>
-                  <h6 className="card-subtitle mb-2 text-muted">Amount : £ -2</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    Amount : £ -2
+                  </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Payment Status : Completed
                   </h6>
@@ -69,14 +70,14 @@ const AccumulatorBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-6 mb-2">
               <div className="card  bg-dark">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    PSG
-                  </h5>
+                  <h5 className="card-title">PSG</h5>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Status : Cancelled
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">Odds : 1.00</h6>
-                  <h6 className="card-subtitle mb-2 text-muted">Amount : £ -2</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    Amount : £ -2
+                  </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Payment Status : Completed
                   </h6>
@@ -91,14 +92,14 @@ const AccumulatorBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-6 mb-2">
               <div className="card  bg-dark">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    PSG
-                  </h5>
+                  <h5 className="card-title">PSG</h5>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Status : Cancelled
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">Odds : 1.00</h6>
-                  <h6 className="card-subtitle mb-2 text-muted">Amount : £ -2</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    Amount : £ -2
+                  </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Payment Status : Completed
                   </h6>
@@ -113,14 +114,14 @@ const AccumulatorBody = () => {
             <div className="col-lg-3 col-md-6 col-sm-6 mb-2">
               <div className="card bg-dark">
                 <div className="card-body">
-                  <h5 className="card-title">
-                    PSG
-                  </h5>
+                  <h5 className="card-title">PSG</h5>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Status : Cancelled
                   </h6>
                   <h6 className="card-subtitle mb-2 text-muted">Odds : 1.00</h6>
-                  <h6 className="card-subtitle mb-2 text-muted">Amount : £ -2</h6>
+                  <h6 className="card-subtitle mb-2 text-muted">
+                    Amount : £ -2
+                  </h6>
                   <h6 className="card-subtitle mb-2 text-muted">
                     Payment Status : Completed
                   </h6>

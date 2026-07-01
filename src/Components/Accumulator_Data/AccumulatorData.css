@@ -37,16 +37,16 @@
 }
 
 .accumulator-data .card p {
-    color: #fff;
+  color: #fff;
 }
 .accumulator-data .table-dark {
-    --bs-table-bg: none;
+  --bs-table-bg: none;
 }
 .accumulator-data table tr td {
-    color: #fff !important;
+  color: #fff;
 }
 
-.small_text{
-    font-size: 12px;
-    color: #fff;
+.small_text {
+  font-size: 12px;
+  color: #fff;
 }

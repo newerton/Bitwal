@@ -1,5 +1,6 @@
 .user-panel-header {
-  background: url("../../../assets/img/user-panel-header-bg.jpg") bottom center no-repeat;
+  background: url("../../../assets/img/user-panel-header-bg.jpg") bottom center
+    no-repeat;
   background-size: cover;
   position: relative;
   z-index: 2;

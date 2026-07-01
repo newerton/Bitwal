@@ -50,13 +50,13 @@
   text-align: center;
   color: #fff;
 }
-.table>:not(caption)>*>*{
+.table > :not(caption) > * > * {
   border-bottom: none;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px) {
   .payment-history {
-    overflow-x: scroll !important;
+    overflow-x: scroll;
   }
   .payment-history table {
     font-size: 12px;

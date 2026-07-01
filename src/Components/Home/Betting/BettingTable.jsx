@@ -1,5 +1,4 @@
-import React from "react";
-import "./Betting.css";
+import './Betting.css';
 
 const BettingTable = (props) => {
   return (
@@ -24,7 +23,10 @@ const BettingTable = (props) => {
             </div>
             <div className="part-match">
               {single_match_data.bet.map((bet) => (
-                <div className="single-place-to-bet" onClick={() => props.onShowModal(bet, single_match_data)}>
+                <div
+                  className="single-place-to-bet"
+                  onClick={() => props.onShowModal(bet, single_match_data)}
+                >
                   <a href>
                     <span className="bet-price">{bet.bet_value}</span>
                     <span className="result-for-final">{bet.name}</span>

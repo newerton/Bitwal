@@ -1,8 +1,8 @@
-import React from "react";
-import Breadcrumb from "../Common/Breadcrumb/Breadcrumb";
-import CompleteFooter from "../Common/Footer/CompleteFooter";
-import Header from "../Common/Header/Header";
-import AccumulatorData from "./AccumulatorData";
+import React from 'react';
+import Breadcrumb from '../Common/Breadcrumb/Breadcrumb';
+import CompleteFooter from '../Common/Footer/CompleteFooter';
+import Header from '../Common/Header/Header';
+import AccumulatorData from './AccumulatorData';
 
 const AccumulatorMain = () => {
   return (

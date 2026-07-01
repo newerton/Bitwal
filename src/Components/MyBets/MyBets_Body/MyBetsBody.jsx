@@ -1,7 +1,10 @@
-import React from "react";
-import "./MyBetsBody.css";
-import { Link } from "react-router-dom";
-import { Name_here, Special, Accumulators } from "../../../assets/DummyData/Betting";
+import './MyBetsBody.css';
+import { Link } from 'react-router-dom';
+import {
+  Accumulators,
+  Name_here,
+  Special,
+} from '../../../assets/DummyData/Betting';
 
 const MyBetsBody = () => {
   return (
@@ -34,7 +37,7 @@ const MyBetsBody = () => {
                     </td>
                   </tr>
                 ))}
-               </tbody>
+              </tbody>
             </table>
           </div>
 
@@ -52,7 +55,7 @@ const MyBetsBody = () => {
                 </tr>
               </thead>
               <tbody>
-              {Special.map((bet) => (
+                {Special.map((bet) => (
                   <tr>
                     <td>{bet.match}</td>
                     <td>{bet.bet_placed_on_team}</td>
@@ -65,7 +68,7 @@ const MyBetsBody = () => {
                     </td>
                   </tr>
                 ))}
-               </tbody>
+              </tbody>
             </table>
           </div>
 
@@ -85,7 +88,7 @@ const MyBetsBody = () => {
                 </tr>
               </thead>
               <tbody>
-              {Accumulators.map((bet) => (
+                {Accumulators.map((bet) => (
                   <tr>
                     <th>{bet.Name}</th>
                     <th>{bet.Total_odds}</th>
@@ -93,18 +96,18 @@ const MyBetsBody = () => {
                     <th>{bet.status}</th>
                     <th>{bet.amount}</th>
                     <th>
-                    <Link className="btn" to="/accumulator_data">
-                      <i className="fa fa-eye"></i>
-                    </Link>
-                  </th>
-                  <th>
-                    <button className="btn">
-                      <i className="fa fa-trash"></i>
-                    </button>
-                  </th>
+                      <Link className="btn" to="/accumulator_data">
+                        <i className="fa fa-eye"></i>
+                      </Link>
+                    </th>
+                    <th>
+                      <button className="btn">
+                        <i className="fa fa-trash"></i>
+                      </button>
+                    </th>
                   </tr>
                 ))}
-               </tbody>
+              </tbody>
             </table>
           </div>
         </div>

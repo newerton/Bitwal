@@ -1,4 +1,2 @@
-
-var header = document.getElementById("myHeader");
+var header = document.getElementById('myHeader');
 console.log(header);
-

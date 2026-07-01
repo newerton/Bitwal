@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./BettingModal.css";
-import vs_icon from "../../../../assets/img/vs-icon.png";
+import { useState } from 'react';
+import './BettingModal.css';
+import vs_icon from '../../../../assets/img/vs-icon.png';
 
 const Betting_Model = (props) => {
   const [bet_count, set_bet_count] = useState(0);

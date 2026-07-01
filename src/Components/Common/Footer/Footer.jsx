@@ -1,8 +1,7 @@
-import React from "react";
-import "./Footer.css";
-import logo from "../../../assets/img/logo.png";
-import email_svg from "../../../assets/img/svg/email.svg";
-import { Link } from "react-router-dom";
+import './Footer.css';
+import { Link } from 'react-router-dom';
+import logo from '../../../assets/img/logo.png';
+import email_svg from '../../../assets/img/svg/email.svg';
 
 const Footer = () => {
   return (

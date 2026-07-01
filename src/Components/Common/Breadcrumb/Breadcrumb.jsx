@@ -1,10 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Breadcrumb.css";
+import { Link } from 'react-router-dom';
+import './Breadcrumb.css';
 
 const Breadcrumb = (props) => {
-  let classes = "breadcrumb-bettix ";
-  classes += props.type === "reg" ? "standing-page-register" : "standing-page";
+  let classes = 'breadcrumb-bettix ';
+  classes += props.type === 'reg' ? 'standing-page-register' : 'standing-page';
 
   return (
     <div className={classes}>
@@ -15,7 +14,7 @@ const Breadcrumb = (props) => {
               <h2>{props.detail}</h2>
               <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <i className=" fas fa-caret-right "></i>
