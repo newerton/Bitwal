@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/jest-dom": "^7.0.0",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "bootstrap": "^5.3.8",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-router": "^8.1.0",
+    "react-router": "^8.2.0",
     "react-router-dom": "^7.18.1",
     "react-scripts": "^5.0.1",
     "web-vitals": "^5.3.0"
@@ -39,14 +39,14 @@
     "express": "^5.2.1",
     "follow-redirects": "^1.16.0",
     "http-proxy-middleware": "^4.1.1",
-    "js-yaml": "^5.2.0",
+    "js-yaml": "^5.2.1",
     "launch-editor": "^2.14.1",
     "postcss": "^8.5.16",
     "qs": "^6.15.3",
     "resolve-url-loader": "^5.0.0",
     "sockjs": "^0.3.24",
     "uuid": "^14.0.1",
-    "webpack-dev-server": "^5.2.5",
+    "webpack-dev-server": "^6.0.0",
     "yaml": "^2.9.0",
     "@babel/core": "^8.0.1",
     "@jest/core": "^30.4.2",
@@ -58,7 +58,8 @@
     "jest-environment-jsdom": "^30.4.1",
     "jest-runner": "^30.4.2",
     "jsdom": "^29.1.1",
-    "webpack": "^5.108.3"
+    "webpack": "^5.108.3",
+    "shell-quote": "^1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -80,6 +81,6 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.2"
+    "@biomejs/biome": "^2.5.4"
   }
 }
